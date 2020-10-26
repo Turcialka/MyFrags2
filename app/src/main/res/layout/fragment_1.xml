@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".Fragment1">
 
+
+
     <Button
         android:id="@+id/button_shuffle"
         android:layout_width="0dp"
