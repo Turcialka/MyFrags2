@@ -1,5 +1,4 @@
 package com.example.myfrags;
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,16 +7,18 @@ import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 
+
 public class Fragment1 extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
     }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         View view = inflater.inflate(R.layout.fragment_1, container, false);
 
         Button buttonShuffle = (Button) view.findViewById(R.id.button_shuffle);
@@ -29,8 +30,8 @@ public class Fragment1 extends Fragment {
         buttonShuffle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (callback !=null) callback.onButtonClickShuffle();
-        }
+                if (callback != null) callback.onButtonClickShuffle();
+            }
         });
 
         buttonClockwise.setOnClickListener(new View.OnClickListener() {
@@ -54,6 +55,7 @@ public class Fragment1 extends Fragment {
             }
         });
 
+
         return view;
     }
 
@@ -69,4 +71,5 @@ public class Fragment1 extends Fragment {
     public void setOnButtonClickListener(OnButtonClickListener callback) {
         this.callback = callback;
     }
+
 }

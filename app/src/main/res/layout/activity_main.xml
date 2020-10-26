@@ -4,45 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/color_frame1"
+    android:orientation="vertical"
     tools:context=".MainActivity">
-
 
     <FrameLayout
         android:id="@+id/frame1"
-        android:background="@color/color_frame1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1">
-
-
+        android:layout_weight="1"
+        android:background="@color/color_frame1">
     </FrameLayout>
 
     <FrameLayout
         android:id="@+id/frame2"
-        android:background="@color/color_frame2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1">
-
+        android:layout_weight="1"
+        android:background="@color/color_frame2">
     </FrameLayout>
 
     <FrameLayout
         android:id="@+id/frame3"
-        android:background="@color/color_frame3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1">
-
+        android:layout_weight="1"
+        android:background="@color/color_frame3">
     </FrameLayout>
 
     <FrameLayout
         android:id="@+id/frame4"
-        android:background="@color/color_frame4"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1">
-
+        android:layout_weight="1"
+        android:background="@color/color_frame4">
     </FrameLayout>
+
 </LinearLayout>

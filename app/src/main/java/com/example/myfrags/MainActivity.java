@@ -24,7 +24,7 @@ public class MainActivity extends FragmentActivity implements Fragment1.OnButton
         setContentView(R.layout.activity_main);
 
         if (savedInstanceState == null){
-            frames = new int[]{R.id.frame1, R.id.frame2, R.id.frame3, R.id.frame3, R.id.frame4};
+            frames = new int[]{R.id.frame1, R.id.frame2, R.id.frame3, R.id.frame4};
             hiden = false;
 
             Fragment[] fragments = new Fragment[]{new Fragment1(), new Fragment2(), new Fragment3(), new Fragment4()};
